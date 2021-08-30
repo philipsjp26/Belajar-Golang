@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/philipsjp26/Belajar-Golang/controller"
+)
 
 func main(){
-	fmt.Println("hai")
+	fmt.Println(controller.Hello("hai"))
 }
